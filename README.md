@@ -15,7 +15,7 @@ A real-time, deck-driven tower defense roguelike. Towers grow by fighting and sh
 A puzzle roguelike that blends Puzzle Bobble, Pachinko, and Balatro into one chain reaction.
 
 **Witclash** &nbsp;`TypeScript`
-An AI-judged debate arena where craft beats correctness. Players make their case and an AI scores the rhetoric.
+An AI-judged debate game where you win on the craft of your argument rather than on being right. Ranked matches, achievements, and a battle pass.
 
 **MarbleKeep** &nbsp;`Godot 4.6`
 A cozy, always-on-top desktop toy. A physics marble rolls in the corner of your screen while you collect procedurally generated marbles across four rarities.
@@ -32,5 +32,5 @@ Breakout crossed with roguelike run structure and upgrades.
 
 ## 📫 Reach me
 
-- Portfolio and live projects: _coming soon_
-- Email: _add your preferred contact here_
+- Email: winterpt91@gmail.com
+- Portfolio: _add your link_
