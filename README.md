@@ -1,39 +1,53 @@
-# Hi, I'm WinterCG 👋
+# Hi, I'm Daniel Inverno
 
-I'm a **3D artist** with professional experience in game art, architectural visualization, and material authoring. That's my main field and my craft.
+3D artist and game developer based near Rotterdam, Netherlands. I spent years in professional 3D production: as Lead 3D Artist at Ad-pulse I built the company's 3D department from scratch, and at Platforme I produced 3D content for Gucci, Hermès and Dior. Today I design and ship my own games and apps, from the first prototype to the store page, using Godot, TypeScript and AI coding agents.
 
-These days I also **build apps with AI**. What started as a hobby has become serious work: I ship real projects and I've created production workflows around **coding agents (Claude and others)** that let me design, prototype, and iterate far faster than I could alone. AI is not a buzzword in my stack, it's how I actually work, from agent-driven development to LLM-powered features.
+🏆 Best Overall Art Direction, *Clocktergeist*, Boss Rush Jam 2025
 
-I like working end to end: from 3D and procedural art, through the apps and games I build, to the AI tooling that ties it all together.
+## Released
 
-## 🤖 Building with AI
+### Tricky Piles: Sequence Game · [Google Play](https://play.google.com/store/apps/details?id=com.daninverno.trickypiles)
 
-**Witclash** &nbsp;`TypeScript` &nbsp;[source](https://github.com/wynterCG/witclash)
-An AI-judged debate game where you win on the craft of your argument rather than on being right. An LLM scores the rhetoric in real time. Ranked matches, achievements, and a battle pass.
+<img src="media/tricky-piles-feature.png" width="560" alt="Tricky Piles feature graphic">
 
-Beyond shipped products, I lean on **coding agents and agentic workflows** for everything from scaffolding and refactoring to design exploration and content generation.
+A calm card-sequence puzzle for Android. I built it solo and took it from prototype to a live store release.
 
-## 🎮 Other projects
+- **Stack:** TypeScript, Vite, Capacitor 8, with a PixiJS effects layer over an accessible DOM board
+- **Product:** rewarded ads (AdMob with consent), a Remove Ads purchase (Play Billing), online rankings (Supabase), daily streaks, boss levels and music
+- **Reach:** localised into English, Portuguese, Dutch, Korean and Simplified Chinese
+- **Quality:** deterministic level generator guarded by thousands of unit, oracle and golden tests, Playwright end-to-end tests, and database tests in CI
 
-**Siegecrawl** &nbsp;`Godot 4.6`
-A real-time, deck-driven tower defense roguelike. Towers grow by fighting and shrink by suffering as you hold a spiral road against a counterattacking dungeon.
+<img src="media/tricky-piles-1.png" width="180" alt="Tricky Piles gameplay"> <img src="media/tricky-piles-3.png" width="180" alt="Tricky Piles screenshot"> <img src="media/tricky-piles-5.png" width="180" alt="Tricky Piles screenshot">
 
-**Stridekeep** &nbsp;`Godot 4.6`
-A puzzle roguelike that blends Puzzle Bobble, Pachinko, and Balatro into one chain reaction.
+## In development
 
-**MarbleKeep** &nbsp;`Godot 4.6` &nbsp;[source](https://github.com/wynterCG/marbleKeep)
-A cozy, always-on-top desktop toy. A physics marble rolls in the corner of your screen while you collect procedurally generated marbles across four rarities. Paired with [marbleGenerator](https://github.com/wynterCG/marbleGenerator), my procedural authoring tool.
+### Jigsaw · Steam demo coming soon
 
-**Breakout Roguelike** &nbsp;`Godot 4.6` &nbsp;[source](https://github.com/wynterCG/BreakoutRoguelike)
-Breakout crossed with roguelike run structure and upgrades.
+<img src="media/jigsaw-replay.gif" width="400" alt="Jigsaw build replay"> <img src="media/jigsaw-perspective.gif" width="300" alt="Jigsaw Perspective mode">
 
-## 🛠️ What I work with
+A first-person 3D jigsaw game in Godot 4.7 (Forward+, Jolt). You solve puzzles of up to 2,000 pieces in a celestial atelier that I modelled in Blender and textured in Substance Designer. Progress lives in the room itself: unplayed puzzles wait as boxes, finished ones hang framed on the walls, and you can replay your whole build afterwards. Act One, with its tools, charms and objectives, is the upcoming Steam demo.
 
-- **AI workflows:** Claude and coding agents, agentic development, LLM-driven features, generative art pipelines
-- **3D and art:** Blender, architectural visualization, material authoring, procedural generation
-- **App and game dev:** Godot 4.x, GDScript, React, TypeScript
+## Prototypes
 
-## 📫 Reach me
+I prototype fast to find the fun, then keep only what earns its place.
+
+| | |
+|---|---|
+| <img src="media/elsewhere.png" width="320" alt="Elsewhere"> | **[Elsewhere](https://github.com/wynterCG/spatial-puzzle-adventure)** · Godot 4.7<br>First-person architectural puzzle adventure. Gravity follows authored paths around walls and undersides, and you reshape the monument from an isometric view. Includes an editor dock for authoring, validating and play-testing levels. |
+| <img src="media/grip-up.png" width="320" alt="GRIP UP"> | **[GRIP UP](https://github.com/wynterCG/grip_up)** · Godot 4.7, Jolt<br>Physics climbing lab: each mouse button is a hand, with finite arm tension, swings and charged launches. Paired with an offline auto-tuning lab (Python, Optuna) that compares controller parameters. |
+| <img src="media/stridekeep-home.png" width="140" alt="Stridekeep"> | **[Stridekeep](https://github.com/wynterCG/stridekeep-legacy)** · React Native, Expo, Supabase<br>Team walking game for Android: real steps from Health Connect unlock tiles, and two teams race to paint a shared pixel-art mural with realtime updates. |
+| <img src="media/marble-generator.gif" width="160" alt="Marble generator"> | **MarbleKeep** · Godot 4.6<br>Always-on-top desktop toy with a physics marble, plus a procedural marble generator and curation tool built for it. |
+
+Other experiments: an AI-judged debate web app ([Witclash](https://github.com/wynterCG/witclash), Next.js + Claude), GPU cellular automata, a deck-driven tower defense roguelike, rigid-body puzzles and a [Breakout roguelike](https://github.com/wynterCG/BreakoutRoguelike).
+
+## Tools
+
+- **3D and art:** Blender, Maya, Substance Painter and Designer, Photoshop, Illustrator
+- **Games:** Godot 4 (GDScript), Jolt physics, Unreal Engine basics
+- **Apps and web:** TypeScript, React, Vite, Next.js, Capacitor, Supabase (Postgres, RLS, realtime)
+- **AI workflow:** Claude Code and other coding agents, with written specs, tests and code review on every change
+
+## Contact
 
 - Portfolio: [daninverno.com](https://daninverno.com)
 - Email: winterpt91@gmail.com
