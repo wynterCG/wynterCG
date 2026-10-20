@@ -50,4 +50,4 @@ Other experiments: an AI-judged debate web app ([Witclash](https://github.com/wy
 ## Contact
 
 - Portfolio: [daninverno.com](https://daninverno.com)
-- Email: winterpt91@gmail.com
+- Email: inverno3darte@gmail.com
