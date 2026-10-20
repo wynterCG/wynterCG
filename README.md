@@ -1,6 +1,6 @@
 # Hi, I'm Daniel Inverno
 
-3D artist and game developer based near Rotterdam, Netherlands. I spent years in professional 3D production: as Lead 3D Artist at Ad-pulse I built the company's 3D department from scratch, and at Platforme I produced 3D content for Gucci, Hermès and Dior. Today I design and ship my own games and apps, from the first prototype to the store page, using Godot, TypeScript and AI coding agents.
+3D artist and game developer based near Rotterdam, Netherlands. I spent years in professional 3D production: as Lead 3D Artist at Ad-pulse I built the company's 3D department from scratch, and at Platforme I produced 3D content for Gucci, Hermès and Dior. Today I design and ship my own games and apps, from the first prototype to the store page, building in Godot and directing AI coding agents for the code.
 
 🏆 Best Overall Art Direction, *Clocktergeist*, Boss Rush Jam 2025
 
@@ -43,9 +43,8 @@ Other experiments: an AI-judged debate web app ([Witclash](https://github.com/wy
 ## Tools
 
 - **3D and art:** Blender, Maya, Substance Painter and Designer, Photoshop, Illustrator
-- **Games:** Godot 4 (GDScript), Jolt physics, Unreal Engine basics
-- **Apps and web:** TypeScript, React, Vite, Next.js, Capacitor, Supabase (Postgres, RLS, realtime)
-- **AI workflow:** Claude Code and other coding agents, with written specs, tests and code review on every change
+- **Games:** Godot 4, Jolt physics, Unreal Engine (Blueprints)
+- **AI development:** I write the code with AI coding agents (Claude Code, Codex). I design the systems, write the specs, review the output and test on device. My projects use TypeScript, React, Capacitor and Supabase.
 
 ## Contact
 
